@@ -1,0 +1,61 @@
+\documentclass[5p,twocolumn]{elsarticle} % Use the elsarticle class with 5p option for final print version and twocolumn option for two columns layout
+
+\usepackage{blindtext} % Generate placeholder text
+
+\journal{Journal Title} % The name of the journal
+
+\begin{document}
+    \begin{frontmatter} % Front matter section including the title, authors, and abstract
+
+        \title{Title of Paper} % The title of the paper
+
+        \author[1]{Author 1}
+        \author[2]{Author 2}
+
+        \address[1]{Affiliation 1}
+        \address[2]{Affiliation 2}
+
+        \ead{author@address.com} % The email address of the corresponding author
+
+        \begin{abstract}
+            This is the abstract. % A brief summary of the paper
+        \end{abstract}
+
+        \begin{keyword}
+            Keyword1 \sep Keyword2 \sep Keyword3 % Keywords for the paper
+        \end{keyword}
+
+    \end{frontmatter}
+
+    \section{Introduction}
+    \blindtext % Generate placeholder text for the introduction
+
+    \section{Related Work}
+    \blindtext % Generate placeholder text for the related work section
+
+    \section{Methodology}
+    \blindtext % Generate placeholder text for the methodology section
+
+    \section{Results}
+    \blindtext % Generate placeholder text for the results section
+
+    \section{Discussion}
+    \blindtext % Generate placeholder text for the discussion section
+
+    \section{Conclusion}
+    \blindtext % Generate placeholder text for the conclusion section
+
+    \section*{Acknowledgments}
+    This is the acknowledgments section. % An optional acknowledgments section
+
+    \begin{thebibliography}{99} % The bibliography environment with 99 as the maximum number of references
+
+        \bibitem{greenwade93} Greenwade, George D. "The Comprehensive TeX Archive Network (CTAN)." TUGBoat 14.3 (1993): 342-351.
+
+        \bibitem{lamport94} Lamport, Leslie. LaTeX: A Document Preparation System. Addison-Wesley, 1994.
+
+        \bibitem{knuth84} Knuth, Donald E. "Literate Programming." The Literate Programming FAQ, 1984.
+
+    \end{thebibliography}
+
+\end{document}
