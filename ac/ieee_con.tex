@@ -1,0 +1,65 @@
+\documentclass[letterpaper, 10pt, conference]{ieeeconf} % Use this command for final conference papers
+%\documentclass[journal]{IEEEtran} % Use this command for journal papers
+%\documentclass[letterpaper, 10 pt, conference]{ieeeconf} % Use this command for draft papers
+
+\IEEEoverridecommandlockouts % This command is only needed if you want to use the \thanks command
+
+\overrideIEEEmargins % Needed to meet printer requirements.
+
+\usepackage{lipsum} % For generating placeholder text
+
+\title{\LARGE \bf Title of Paper} % The title of the paper
+
+\author{First Author$^{1}$ and Second Author$^{2}$% <-this % stops a space
+    \thanks{*This work was supported by the NSF.}% <-this % stops a space
+    \thanks{$^{1}$First Author is with the Department of Engineering, University of X,
+            {\tt\small first.author@university.edu}}%
+    \thanks{$^{2}$Second Author is with the Department of Engineering, University of Y,
+            {\tt\small second.author@university.edu}}%
+}
+
+\begin{document}
+
+    \maketitle
+    \thispagestyle{empty}
+    \pagestyle{empty}
+
+    \begin{abstract}
+        This is the abstract. % A brief summary of the paper
+    \end{abstract}
+
+    \section{Introduction}
+    \lipsum[1] % Generate placeholder text for the introduction
+
+    \section{Related Work}
+    \lipsum[2] % Generate placeholder text for the related work section
+
+    \section{Methodology}
+    \lipsum[3] % Generate placeholder text for the methodology section
+
+    \section{Results}
+    \lipsum[4] % Generate placeholder text for the results section
+
+    \section{Discussion}
+    \lipsum[5] % Generate placeholder text for the discussion section
+
+    \section{Conclusion}
+    \lipsum[6] % Generate placeholder text for the conclusion section
+
+    \section*{Acknowledgments}
+    This is the acknowledgments section. % An optional acknowledgments section
+
+    \begin{thebibliography}{1}
+
+        \bibitem{example1}
+        Author, A., and B. Author. ``Title of the article.'' \textit{Title of the journal} 10, no. 2 (2019): 123-135.
+
+        \bibitem{example2}
+        Author, C., and D. Author. ``Title of the conference paper.'' In \textit{Proceedings of the Conference on XYZ}, pp. 456-468. IEEE, 2018.
+
+        \bibitem{example3}
+        Author, E. ``Title of the book.'' Publisher, 2017.
+
+    \end{thebibliography}
+
+\end{document}
